@@ -1,3 +1,5 @@
+// based on TV01-ZB (_TZE200_e9ba97vf) from moes
+
 const fz = {...require('zigbee-herdsman-converters/converters/fromZigbee'), legacy: require('zigbee-herdsman-converters/lib/legacy').fromZigbee};
 const tz = require('zigbee-herdsman-converters/converters/toZigbee');
 const tuya = require('zigbee-herdsman-converters/lib/tuya');
